@@ -2,15 +2,8 @@
 
 Portafolio personal de desarrollo web frontend: proyectos, aprendizajes y contacto.
 
-## Características
 
-- Diseño oscuro con glassmorphism y acentos violeta, cian y esmeralda
-- Efectos hover fluidos en botones, tarjetas, chips y enlaces
-- Animaciones de entrada al hacer scroll
-- Menú responsive con resaltado de la sección activa
-- Accesibilidad: enlace para saltar al contenido, etiquetas ARIA y soporte de `prefers-reduced-motion`
-
-## Estructura
+Estructura
 
 ```
 .
