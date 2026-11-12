@@ -375,7 +375,7 @@ footer a:hover { color: var(--cyan); transform: translateY(-2px); display: inlin
   .hero { padding-top: 130px; }
   .hero-grid { grid-template-columns: 1fr; }
   .profile-card { max-width: 380px; margin-inline: auto; width: 100%; }
-  .menu-btn { display: block; }
+  .menu-btn { display: block; margin-left: auto; }
   .nav-links {
     position: absolute; top: 68px; left: 0; right: 0;
     flex-direction: column; padding: 14px 4%;
