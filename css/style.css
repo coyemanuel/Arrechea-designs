@@ -405,3 +405,9 @@ footer a:hover { color: var(--cyan); transform: translateY(-2px); display: inlin
 
 /* Enlace activo del menú */
 .nav-links a.active { color: var(--text); background: var(--glass-strong); }
+
+/* Barra al hacer scroll */
+.nav.scrolled {
+  background: rgba(10, 10, 18, 0.85);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+}

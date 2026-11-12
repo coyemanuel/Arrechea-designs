@@ -43,3 +43,9 @@ const observadorMenu = new IntersectionObserver((entries) => {
   });
 }, { rootMargin: '-45% 0px -50% 0px' });
 secciones.forEach(s => observadorMenu.observe(s));
+
+// Refuerza la barra de navegación al bajar
+const barra = document.querySelector('.nav');
+const actualizarBarra = () => barra.classList.toggle('scrolled', window.scrollY > 20);
+window.addEventListener('scroll', actualizarBarra, { passive: true });
+actualizarBarra();
