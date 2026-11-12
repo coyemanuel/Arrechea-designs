@@ -393,3 +393,12 @@ footer a:hover { color: var(--cyan); transform: translateY(-2px); display: inlin
   html { scroll-behavior: auto; }
   .reveal { opacity: 1; transform: none; }
 }
+
+/* ============ ACCESIBILIDAD ============ */
+.skip-link {
+  position: absolute; left: 16px; top: -60px; z-index: 200;
+  padding: 10px 18px; border-radius: 12px;
+  background: var(--violet); color: #fff; font-weight: 600;
+  transition: top 0.3s ease;
+}
+.skip-link:focus { top: 12px; }
