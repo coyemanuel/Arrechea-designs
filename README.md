@@ -21,21 +21,11 @@ Portafolio personal de desarrollo web frontend: proyectos, aprendizajes y contac
 └── README.md
 ```
 
-## Ver el sitio
 
-Abre `index.html` en el navegador. No necesita instalación.
-
-## Publicarlo
-
-- **GitHub Pages:** Settings → Pages → Deploy from a branch → `main` / `(root)`
-- **Netlify:** arrastra la carpeta completa a [Netlify Drop](https://app.netlify.com/drop)
-
-## Personalizar
+ Personalizacion
 
 - Colores: variables `--violet`, `--cyan` y `--emerald` al inicio de `css/style.css`
-- Proyectos y entradas del blog: edita las tarjetas en `index.html`
-
-## Autor
+Autor
 
 - GitHub: [coyemanuel](https://github.com/coyemanuel)
 - Instagram: [@ema_coy28](https://www.instagram.com/ema_coy28/)
