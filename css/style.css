@@ -402,3 +402,6 @@ footer a:hover { color: var(--cyan); transform: translateY(-2px); display: inlin
   transition: top 0.3s ease;
 }
 .skip-link:focus { top: 12px; }
+
+/* Enlace activo del menú */
+.nav-links a.active { color: var(--text); background: var(--glass-strong); }
