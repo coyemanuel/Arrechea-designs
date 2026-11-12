@@ -6,11 +6,14 @@ const menuBtn = document.getElementById('menuBtn');
 const navLinks = document.getElementById('navLinks');
 menuBtn.addEventListener('click', () => {
   navLinks.classList.toggle('open');
-  menuBtn.textContent = navLinks.classList.contains('open') ? '✕' : '☰';
+  const abierto = navLinks.classList.contains('open');
+  menuBtn.textContent = abierto ? '✕' : '☰';
+  menuBtn.setAttribute('aria-expanded', String(abierto));
 });
 navLinks.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
   navLinks.classList.remove('open');
   menuBtn.textContent = '☰';
+  menuBtn.setAttribute('aria-expanded', 'false');
 }));
 
 // Animación de entrada al hacer scroll
